@@ -1,7 +1,13 @@
+# Değişken olarak örnek vermek gerekirse kodlama.io sitesinde kursların kategorilere ayrıldığı
+# bölümlerde hepsinde "Ücretsiz" yazısı yazıyor buradaki ücretsiz yazısı bir yerde tanımlanmış
+# bir değişken olabilir.
 # Kodlama.io sitesi değişken örneği ;
 price = "Ücretsiz"
 print(price)
 
+# Şart bloklarına örnek verecek olursam mesela siteye giriş yapma bölümü olabilir
+# database de bulunan username ve pass değerleri kullanıcının girdiği ile karşılaştırılır
+# doğru ise kullanıcı siteye giriş yapar yanlış girerse hata mesajı döndürülebilir.
 # Kodlama.io sitesi şart bloğu örneği ;
 username = "user"
 password = "123456"
