@@ -97,7 +97,7 @@ class start_test:
         password = driver.find_element(By.XPATH, "/html/body/div/div/div[2]/div[1]/div/div/form/div[2]/input")
         password.send_keys("secret_sauce")
         driver.find_element(By.ID, "login-button").click()
-        ürün_adet = driver.find_element(By.CLASS_NAME, "inventory_list")
+        ürün_adet = driver.find_elements(By.CLASS_NAME, "inventory_list")
         sleep(3)
         print(f"ÜRÜN ADETİ : {len(ürün_adet)}")
         product_elements = driver.find_elements(By.CLASS_NAME, "inventory_item")
