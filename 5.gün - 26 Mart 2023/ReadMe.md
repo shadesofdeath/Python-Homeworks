@@ -1,1 +1,1 @@
-<img src="testing.png" alt="Girl in a jacket" width="1280" height="700">
+<img src="testing.PNG" alt="" width="1280" height="700">
