@@ -1,0 +1,7 @@
+{
+    "python.testing.pytestArgs": [
+        "5.gün - 26 Mart 2023"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}
